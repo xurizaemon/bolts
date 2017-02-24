@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "author": "Chris Burgess <chris@fuzion.co.nz>",
-  "description": "Boltar de Fuego, the Black Knight of CiviCRM",
+  "description": "Boltar de Fuego, the Black Knight of CiviCRM.",
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
@@ -12,7 +12,7 @@
     "hubot-help": "^0.2.0",
     "hubot-heroku-keepalive": "^1.0.2",
     "hubot-maps": "0.0.2",
-    "hubot-mattermost": "^1.0.7",
+    "hubot-matteruser": "^3.6.0",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
     "hubot-rules": "^0.1.1",
