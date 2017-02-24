@@ -1,5 +1,11 @@
 #!/bin/sh
 
+if [ -f .config.sh ] ; then
+  . .config.sh
+else
+  echo ".config.sh not found"
+fi
+
 set -e
 
 npm install
