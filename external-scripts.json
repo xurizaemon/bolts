@@ -1,9 +1,11 @@
 [
   "hubot-diagnostics",
+  "hubot-drupalorg",
   "hubot-help",
   "hubot-heroku-keepalive",
   "hubot-google-images",
   "hubot-google-translate",
+  "hubot-jira",
   "hubot-pugme",
   "hubot-maps",
   "hubot-redis-brain",
