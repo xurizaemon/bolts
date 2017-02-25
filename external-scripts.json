@@ -1,4 +1,5 @@
 [
+  "hubot-bolts",
   "hubot-diagnostics",
   "hubot-drupalorg",
   "hubot-help",

@@ -6,6 +6,7 @@
   "description": "Boltar de Fuego, the Black Knight of CiviCRM.",
   "dependencies": {
     "hubot": "^2.19.0",
+    "hubot-bolts": "git://github.com/xurizaemon/hubot-bolts.git",
     "hubot-diagnostics": "0.0.1",
     "hubot-drupalorg": "0.0.2",
     "hubot-factoids": "^1.0.1",
