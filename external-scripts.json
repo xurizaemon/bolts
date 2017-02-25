@@ -3,6 +3,7 @@
   "hubot-drupalorg",
   "hubot-help",
   "hubot-heroku-keepalive",
+  "hubot-factoids",
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-jira",
