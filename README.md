@@ -26,6 +26,7 @@ Please use @bolts mindfully! We want @bolts to be fun and useful, while avoiding
 * Add features! Many things can be delivered just by submitting a suitable config for an existing hubot module.
 * There's a channel on https://chat.civicrm.org for bot testing: `x-bot-test`
 * Bolts uses the `mattermost-user` adapter, but there are alternatives.
+* Here's [a brain dump of some things we use a bot for at Fuzion](https://chat.civicrm.org/civicrm/pl/1w1dz55ap7gb8kj6cyjhbrn4xc)
 
 ### Running Bolts Locally
 
