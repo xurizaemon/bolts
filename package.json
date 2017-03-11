@@ -20,7 +20,12 @@
     "hubot-mail-notifier": "0.0.1",
     "hubot-maps": "0.0.2",
     "hubot-matteruser": "^3.6.0",
+<<<<<<< HEAD
     "hubot-pingdom-tools": "git@github.com:xurizaemon/hubot-pingdom-tools.git",
+=======
+    "hubot-mobilefriendly": "git+https://git@github.com/xurizaemon/hubot-mobilefriendly.git",
+    "hubot-pingdom-tools": "git+https://git@github.com/xurizaemon/hubot-pingdom-tools.git",
+>>>>>>> 9ac86c6b30dae6c8fc382ba8990aa4130a5d0767
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
     "hubot-remind-her": "^0.4.1",
