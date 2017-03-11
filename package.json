@@ -15,7 +15,7 @@
     "hubot-help": "^0.2.0",
     "hubot-heroku-keepalive": "^1.0.2",
     "hubot-jira": "^1.0.2",
-    "hubot-killmesoftly": "git+https://git@github.com/xurizaemon/hubot-killmesoftly.git",
+    "hubot-refrain": "git+https://git@github.com/xurizaemon/hubot-refrain.git",
     "hubot-mail-listener": "^1.0.0",
     "hubot-mail-notifier": "0.0.1",
     "hubot-maps": "0.0.2",
