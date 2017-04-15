@@ -7,10 +7,10 @@
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
       }
     },
-    "room": "Shell",
-    "pingIntervalSeconds": "300",
+    "room": "x-bot-test",
+    "pingIntervalSeconds": "60",
     "alertPrefix": "",
     "alertSuffix": "",
-    "messageTpl": "`SE :grey_question: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
+    "messageTpl": "`New StackExchange question: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
   }]
 }
