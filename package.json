@@ -25,6 +25,7 @@
     "hubot-redis-brain": "0.0.3",
     "hubot-refrain": "git+https://git@github.com/xurizaemon/hubot-refrain.git",
     "hubot-remind-her": "^0.4.1",
+    "hubot-rss-poller2": "0.0.5",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.0",
