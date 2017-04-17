@@ -1,16 +1,32 @@
 {
-  "feeds": [{
-    "name": "Stack Exchange",
-    "request": {
-      "uri": "https://civicrm.stackexchange.com/feeds",
-      "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
-      }
+    "feeds": [{
+        "id": "stackexchange",
+        "name": "Stack Exchange",
+        "request": {
+            "uri": "https://civicrm.stackexchange.com/feeds",
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+            }
+        },
+        "room": "town square",
+        "pingIntervalSeconds": "60",
+        "alertPrefix": "",
+        "alertSuffix": "",
+        "messageTpl": "`New StackExchange question: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
     },
-    "room": "x-bot-test",
-    "pingIntervalSeconds": "60",
-    "alertPrefix": "",
-    "alertSuffix": "",
-    "messageTpl": "`New StackExchange question: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
-  }]
+    {
+        "id": "civicrm-blog",
+        "name": "CiviCRM Blog",
+        "request": {
+            "uri": "https://civicrm.org/blog/feed",
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+            }
+        },
+        "room": "town square",
+        "pingIntervalSeconds": "60",
+        "alertPrefix": "",
+        "alertSuffix": "",
+        "messageTpl": "`New CiviCRM blog: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
+    }]
 }
