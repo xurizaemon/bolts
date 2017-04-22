@@ -12,7 +12,7 @@
         "pingIntervalSeconds": "60",
         "alertPrefix": "",
         "alertSuffix": "",
-        "messageTpl": "`New StackExchange question: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
+        "messageTpl": "`![SE](https://resources.fudev.co.nz/rss-stackexchange.gif) New StackExchange question: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
     },
     {
         "id": "civicrm-blog",
@@ -27,6 +27,6 @@
         "pingIntervalSeconds": "60",
         "alertPrefix": "",
         "alertSuffix": "",
-        "messageTpl": "`New CiviCRM blog: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
+        "messageTpl": "`[Blog](https://resources.fudev.co.nz/rss-civicrm.gif) New CiviCRM blog: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
     }]
 }
