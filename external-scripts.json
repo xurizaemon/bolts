@@ -16,5 +16,6 @@
   "hubot-remind-her",
   "hubot-rules",
   "hubot-rss-poller2",
-  "hubot-shipit"
+  "hubot-shipit",
+  "hubot-twitter-mention"
 ]
