@@ -15,6 +15,21 @@
         "messageTpl": "`![SE](https://resources.fudev.co.nz/rss-stackexchange.gif) New StackExchange question: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
     },
     {
+        "id": "civicrm-instagram",
+        "name": "CiviCRM Instagram",
+        "request": {
+            "uri": "https://queryfeed.net/instagram?q=%23civicrm",
+            "headers": {
+                "User-Agent": "civicrm-bolts (https://github.com/xurizaemon/bolts)"
+            }
+        },
+        "room": "socialmedia",
+        "pingIntervalSeconds": "60",
+        "alertPrefix": "",
+        "alertSuffix": "",
+        "messageTpl": "`![Instagram](https://resources.fudev.co.nz/rss-instagram.png) [${latestItem.getTitle()}](${latestItem.getPermalink()}) ![image](${latestItem.element.enclosure.url})`"
+    },
+    {
         "id": "civicrm-blog",
         "name": "CiviCRM Blog",
         "request": {
