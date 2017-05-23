@@ -27,7 +27,7 @@
         "pingIntervalSeconds": "60",
         "alertPrefix": "",
         "alertSuffix": "",
-        "messageTpl": "`![Instagram](https://resources.fudev.co.nz/rss-instagram.png) [${latestItem.getTitle()}](${latestItem.getPermalink()}) ![image](${latestItem.element.enclosure.url})`"
+        "messageTpl": "`![Instagram](https://resources.fudev.co.nz/rss-instagram.png) [${latestItem.getTitle()}](${latestItem.getPermalink()})\n\n![image](${latestItem.element.enclosure.url})`"
     },
     {
         "id": "civicrm-blog",
