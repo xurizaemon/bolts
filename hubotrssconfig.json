@@ -42,6 +42,6 @@
         "pingIntervalSeconds": "60",
         "alertPrefix": "",
         "alertSuffix": "",
-        "messageTpl": "`[Blog](https://resources.fudev.co.nz/rss-civicrm.gif) New CiviCRM blog: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
+        "messageTpl": "`[Blog](https://resources.fudev.co.nz/rss-civicrm.png) New CiviCRM blog: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
     }]
 }
