@@ -14,6 +14,7 @@
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.2.0",
     "hubot-heroku-keepalive": "^1.0.2",
+    "hubot-isup": "^1.0.2",
     "hubot-jira": "^1.0.2",
     "hubot-mail-listener": "^1.0.0",
     "hubot-mail-notifier": "0.0.1",
