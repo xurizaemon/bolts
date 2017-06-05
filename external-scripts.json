@@ -6,6 +6,7 @@
   "hubot-factoids",
   "hubot-google-images",
   "hubot-google-translate",
+  "hubot-isup",
   "hubot-jira",
   "hubot-mobilefriendly",
   "hubot-pingdom-tools",
