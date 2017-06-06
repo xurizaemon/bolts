@@ -30,6 +30,7 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.0",
+    "hubot-ssllabs": "git+https://github.com/xurizaemon/hubot-ssllabs.git",
     "hubot-twitter-mention": "git+https://github.com/xurizaemon/hubot-twitter-mention.git"
   },
   "engines": {
