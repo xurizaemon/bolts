@@ -18,5 +18,6 @@
   "hubot-rules",
   "hubot-rss-poller2",
   "hubot-shipit",
+  "hubot-ssllabs",
   "hubot-twitter-mention"
 ]
