@@ -43,5 +43,20 @@
         "alertPrefix": "",
         "alertSuffix": "",
         "messageTpl": "`[Blog](https://resources.fudev.co.nz/rss-civicrm.png) New CiviCRM blog: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
+    },
+        {
+        "id": "reddit-civicrm",
+        "name": "r/civicrm",
+        "request": {
+            "uri": "https://reddit.com/r/civicrm.rss",
+            "headers": {
+                "User-Agent": "civicrm-bolts (https://github.com/xurizaemon/bolts)"
+            }
+        },
+        "room": "town square",
+        "pingIntervalSeconds": "300",
+        "alertPrefix": "",
+        "alertSuffix": "",
+        "messageTpl": "`[reddit](https://resources.fudev.co.nz/rss-reddit.png) New r/civicrm post: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
     }]
 }
