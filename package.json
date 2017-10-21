@@ -33,6 +33,6 @@
     "hubot-twitter-mention": "git+https://github.com/xurizaemon/hubot-twitter-mention.git"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "8.x"
   }
 }
