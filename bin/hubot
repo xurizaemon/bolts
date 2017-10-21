@@ -3,7 +3,7 @@
 if [ -f .config.sh ] ; then
   . .config.sh
 else
-  echo ".config.sh not found"
+  echo ".config.sh not found, ignoring"
 fi
 
 set -e
