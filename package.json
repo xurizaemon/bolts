@@ -19,14 +19,13 @@
     "hubot-mail-listener": "^1.0.0",
     "hubot-mail-notifier": "0.0.1",
     "hubot-maps": "0.0.2",
-    "hubot-matteruser": "^3.6.0",
+    "hubot-matteruser": "^4.1.1",
     "hubot-mobilefriendly": "git+https://github.com/xurizaemon/hubot-mobilefriendly.git",
     "hubot-pingdom-tools": "git+https://github.com/xurizaemon/hubot-pingdom-tools.git",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
     "hubot-refrain": "git+https://github.com/xurizaemon/hubot-refrain.git",
     "hubot-remind-her": "^0.4.1",
-    "hubot-rss-poller2": "git+https://github.com/xurizaemon/hubot-rss-poller2.git",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.0",
@@ -34,6 +33,6 @@
     "hubot-twitter-mention": "git+https://github.com/xurizaemon/hubot-twitter-mention.git"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "8.x"
   }
 }
