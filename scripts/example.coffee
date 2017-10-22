@@ -10,68 +10,68 @@
 
 module.exports = (robot) ->
 
-  # robot.hear /badger/i, (res) ->
-  #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
+  robot.hear /badger/i, (msg) ->
+    msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
-  # robot.respond /open the (.*) doors/i, (res) ->
-  #   doorType = res.match[1]
+  # robot.respond /open the (.*) doors/i, (msg) ->
+  #   doorType = msg.match[1]
   #   if doorType is "pod bay"
-  #     res.reply "I'm afraid I can't let you do that."
+  #     msg.reply "I'm afraid I can't let you do that."
   #   else
-  #     res.reply "Opening #{doorType} doors"
+  #     msg.reply "Opening #{doorType} doors"
   #
-  # robot.hear /I like pie/i, (res) ->
-  #   res.emote "makes a freshly baked pie"
+  # robot.hear /I like pie/i, (msg) ->
+  #   msg.emote "makes a freshly baked pie"
   #
   # lulz = ['lol', 'rofl', 'lmao']
   #
-  # robot.respond /lulz/i, (res) ->
-  #   res.send res.random lulz
+  # robot.respond /lulz/i, (msg) ->
+  #   msg.send msg.random lulz
   #
-  # robot.topic (res) ->
-  #   res.send "#{res.message.text}? That's a Paddlin'"
+  # robot.topic (msg) ->
+  #   msg.send "#{msg.message.text}? That's a Paddlin'"
   #
   #
   # enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha', 'I see you']
   # leaveReplies = ['Are you still there?', 'Target lost', 'Searching']
   #
-  # robot.enter (res) ->
-  #   res.send res.random enterReplies
-  # robot.leave (res) ->
-  #   res.send res.random leaveReplies
+  # robot.enter (msg) ->
+  #   msg.send msg.random enterReplies
+  # robot.leave (msg) ->
+  #   msg.send msg.random leaveReplies
   #
   # answer = process.env.HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIVERSE_AND_EVERYTHING
   #
-  # robot.respond /what is the answer to the ultimate question of life/, (res) ->
+  # robot.respond /what is the answer to the ultimate question of life/, (msg) ->
   #   unless answer?
-  #     res.send "Missing HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIVERSE_AND_EVERYTHING in environment: please set and try again"
+  #     msg.send "Missing HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIVERSE_AND_EVERYTHING in environment: please set and try again"
   #     return
-  #   res.send "#{answer}, but what is the question?"
+  #   msg.send "#{answer}, but what is the question?"
   #
-  # robot.respond /you are a little slow/, (res) ->
+  # robot.respond /you are a little slow/, (msg) ->
   #   setTimeout () ->
-  #     res.send "Who you calling 'slow'?"
+  #     msg.send "Who you calling 'slow'?"
   #   , 60 * 1000
   #
   # annoyIntervalId = null
   #
-  # robot.respond /annoy me/, (res) ->
+  # robot.respond /annoy me/, (msg) ->
   #   if annoyIntervalId
-  #     res.send "AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"
+  #     msg.send "AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"
   #     return
   #
-  #   res.send "Hey, want to hear the most annoying sound in the world?"
+  #   msg.send "Hey, want to hear the most annoying sound in the world?"
   #   annoyIntervalId = setInterval () ->
-  #     res.send "AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"
+  #     msg.send "AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"
   #   , 1000
   #
-  # robot.respond /unannoy me/, (res) ->
+  # robot.respond /unannoy me/, (msg) ->
   #   if annoyIntervalId
-  #     res.send "GUYS, GUYS, GUYS!"
+  #     msg.send "GUYS, GUYS, GUYS!"
   #     clearInterval(annoyIntervalId)
   #     annoyIntervalId = null
   #   else
-  #     res.send "Not annoying you right now, am I?"
+  #     msg.send "Not annoying you right now, am I?"
   #
   #
   # robot.router.post '/hubot/chatsecrets/:room', (req, res) ->
@@ -83,24 +83,24 @@ module.exports = (robot) ->
   #
   #   res.send 'OK'
   #
-  # robot.error (err, res) ->
+  # robot.error (err, msg) ->
   #   robot.logger.error "DOES NOT COMPUTE"
   #
-  #   if res?
-  #     res.reply "DOES NOT COMPUTE"
+  #   if msg?
+  #     msg.reply "DOES NOT COMPUTE"
   #
-  # robot.respond /have a soda/i, (res) ->
+  # robot.respond /have a soda/i, (msg) ->
   #   # Get number of sodas had (coerced to a number).
   #   sodasHad = robot.brain.get('totalSodas') * 1 or 0
   #
   #   if sodasHad > 4
-  #     res.reply "I'm too fizzy.."
+  #     msg.reply "I'm too fizzy.."
   #
   #   else
-  #     res.reply 'Sure!'
+  #     msg.reply 'Sure!'
   #
   #     robot.brain.set 'totalSodas', sodasHad+1
   #
-  # robot.respond /sleep it off/i, (res) ->
+  # robot.respond /sleep it off/i, (msg) ->
   #   robot.brain.set 'totalSodas', 0
-  #   res.reply 'zzzzz'
+  #   robot.respond 'zzzzz'
