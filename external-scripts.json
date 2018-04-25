@@ -15,7 +15,11 @@
   "hubot-redis-brain",
   "hubot-refrain",
   "hubot-remind-her",
+<<<<<<< HEAD
   "hubot-rss-reader",
+=======
+  "hubot-rss-poller2",
+>>>>>>> 220425f8eb9bdadf656b774cb8989848c0a34613
   "hubot-rules",
   "hubot-shipit",
   "hubot-ssllabs",
