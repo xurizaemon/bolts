@@ -8,7 +8,7 @@
                 "User-Agent": "civicrm-bolts (https://github.com/xurizaemon/bolts)"
             }
         },
-        "room": "x-bot-test",
+        "room": "town square",
         "pingIntervalSeconds": "60",
         "alertPrefix": "",
         "alertSuffix": "",
@@ -38,7 +38,7 @@
                 "User-Agent": "civicrm-bolts (https://github.com/xurizaemon/bolts)"
             }
         },
-        "room": "x-bot-test",
+        "room": "town square",
         "pingIntervalSeconds": "60",
         "alertPrefix": "",
         "alertSuffix": "",
@@ -53,7 +53,7 @@
                 "User-Agent": "civicrm-bolts (https://github.com/xurizaemon/bolts)"
             }
         },
-        "room": "x-bot-test",
+        "room": "socialmedia",
         "pingIntervalSeconds": "300",
         "alertPrefix": "",
         "alertSuffix": "",
