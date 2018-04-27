@@ -19,5 +19,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-ssllabs",
+  "hubot-trello",
   "hubot-twitter-mention"
 ]
