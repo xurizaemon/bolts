@@ -12,7 +12,7 @@
         "pingIntervalSeconds": "60",
         "alertPrefix": "",
         "alertSuffix": "",
-        "messageTpl": "`![SE](https://resources.fudev.co.nz/rss-stackexchange.png) New StackExchange question: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
+        "messageTpl": "`![SE](https://civicrm.org/sites/civicrm.org/files/rss-stackexchange.png) New StackExchange question: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
     },
     {
         "id": "civicrm-instagram",
@@ -27,7 +27,7 @@
         "pingIntervalSeconds": "60",
         "alertPrefix": "",
         "alertSuffix": "",
-        "messageTpl": "`![Instagram](https://resources.fudev.co.nz/rss-instagram.png) [${latestItem.getTitle()}](${latestItem.getPermalink()})\n\n![image](${latestItem.element.enclosure.url})`"
+        "messageTpl": "`![Instagram](https://civicrm.org/sites/civicrm.org/files/rss-instagram.png) [${latestItem.getTitle()}](${latestItem.getPermalink()})\n\n![image](${latestItem.element.enclosure.url})`"
     },
     {
         "id": "civicrm-blog",
@@ -42,7 +42,7 @@
         "pingIntervalSeconds": "60",
         "alertPrefix": "",
         "alertSuffix": "",
-        "messageTpl": "`[Blog](https://resources.fudev.co.nz/rss-civicrm.png) New CiviCRM blog: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
+        "messageTpl": "`[Blog](https://civicrm.org/sites/civicrm.org/files/rss-civicrm.png) New CiviCRM blog: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
     },
         {
         "id": "reddit-civicrm",
@@ -57,6 +57,6 @@
         "pingIntervalSeconds": "300",
         "alertPrefix": "",
         "alertSuffix": "",
-        "messageTpl": "`[reddit](https://resources.fudev.co.nz/rss-reddit.png) New r/civicrm post: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
+        "messageTpl": "`[reddit](https://civicrm.org/sites/civicrm.org/files/rss-reddit.png) New r/civicrm post: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
     }]
 }
