@@ -19,7 +19,7 @@
     "hubot-mail-listener": "^1.0.0",
     "hubot-mail-notifier": "0.0.1",
     "hubot-maps": "0.0.2",
-    "hubot-matteruser": "^4.4.0",
+    "hubot-matteruser": "git+https://github.com/xurizaemon/hubot-matteruser.git",
     "hubot-mobilefriendly": "git+https://github.com/xurizaemon/hubot-mobilefriendly.git",
     "hubot-pingdom-tools": "git+https://github.com/xurizaemon/hubot-pingdom-tools.git",
     "hubot-pugme": "^0.1.0",
