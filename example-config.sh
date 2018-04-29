@@ -8,8 +8,6 @@ export MATTERMOST_USER=xxx
 export MATTERMOST_PASSWORD=xxx
 export MATTERMOST_LOG_LEVEL=info
 export MATTERMOST_IGNORE_USERS=
-# export PORT=9099
-
 export HUBOT_BASE_URL=http://localhost:9099
 export HUBOT_FACTOID_PREFIX='?!'
 export HUBOT_JIRA_URL=https://issues.civicrm.org/jira

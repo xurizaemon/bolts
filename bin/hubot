@@ -1,9 +1,12 @@
 #!/bin/bash
 
-if [ -f .config.sh ] ; then
+if [ -f .env ] ; then
+  echo ".env found"
+elif [ -f .config.sh ] ; then
+  echo ".config.sh found, loading"
   . .config.sh
 else
-  echo ".config.sh not found, ignoring"
+  echo "neither .env nor .config.sh not found, ignoring"
 fi
 
 set -e
