@@ -9,10 +9,9 @@
             }
         },
         "room": "town square",
-        "pingIntervalSeconds": "60",
-        "alertPrefix": "",
-        "alertSuffix": "",
-        "messageTpl": "`![SE](https://civicrm.org/sites/civicrm.org/files/rss-stackexchange.png) New StackExchange question: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
+        "pingInterval": "5",
+        "alertPrefix": "![SE](https://civicrm.org/sites/civicrm.org/files/rss-stackexchange.png)",
+        "alertSuffix": ""
     },
     {
         "id": "civicrm-instagram",
@@ -24,10 +23,9 @@
             }
         },
         "room": "socialmedia",
-        "pingIntervalSeconds": "60",
-        "alertPrefix": "",
-        "alertSuffix": "",
-        "messageTpl": "`![Instagram](https://civicrm.org/sites/civicrm.org/files/rss-instagram.png) [${latestItem.getTitle()}](${latestItem.getPermalink()})\n\n![image](${latestItem.element.enclosure.url})`"
+        "pingInterval": "5",
+        "alertPrefix": "![Instagram](https://civicrm.org/sites/civicrm.org/files/rss-instagram.png)",
+        "alertSuffix": ""
     },
     {
         "id": "civicrm-blog",
@@ -39,10 +37,9 @@
             }
         },
         "room": "town square",
-        "pingIntervalSeconds": "60",
-        "alertPrefix": "",
-        "alertSuffix": "",
-        "messageTpl": "`[Blog](https://civicrm.org/sites/civicrm.org/files/rss-civicrm.png) New CiviCRM blog: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
+        "pingInterval": "5",
+        "alertPrefix": "[Blog](https://civicrm.org/sites/civicrm.org/files/rss-civicrm.png)",
+        "alertSuffix": ""
     },
         {
         "id": "reddit-civicrm",
@@ -54,9 +51,8 @@
             }
         },
         "room": "socialmedia",
-        "pingIntervalSeconds": "300",
-        "alertPrefix": "",
-        "alertSuffix": "",
-        "messageTpl": "`[reddit](https://civicrm.org/sites/civicrm.org/files/rss-reddit.png) New r/civicrm post: [${latestItem.getTitle()}](${latestItem.getPermalink()})`"
+        "pingInterval": "5",
+        "alertPrefix": "[reddit](https://civicrm.org/sites/civicrm.org/files/rss-reddit.png)",
+        "alertSuffix": ""
     }]
 }
