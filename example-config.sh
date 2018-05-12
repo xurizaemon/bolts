@@ -1,5 +1,5 @@
 #
-# Copy this file to .config.sh and set the variables below.
+# Copy this file to .env and set the variables below.
 #
 
 export MATTERMOST_HOST=chat.civicrm.org
