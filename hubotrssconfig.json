@@ -9,7 +9,7 @@
             }
         },
         "room": "town square",
-        "pingInterval": "5",
+        "pingInterval": "60",
         "alertPrefix": "![SE](https://civicrm.org/sites/civicrm.org/files/rss-stackexchange.png)",
         "alertSuffix": ""
     },
@@ -23,7 +23,7 @@
             }
         },
         "room": "socialmedia",
-        "pingInterval": "5",
+        "pingInterval": "60",
         "alertPrefix": "![Instagram](https://civicrm.org/sites/civicrm.org/files/rss-instagram.png)",
         "alertSuffix": ""
     },
@@ -37,11 +37,11 @@
             }
         },
         "room": "town square",
-        "pingInterval": "5",
+        "pingInterval": "60",
         "alertPrefix": "[Blog](https://civicrm.org/sites/civicrm.org/files/rss-civicrm.png)",
         "alertSuffix": ""
     },
-        {
+    {
         "id": "reddit-civicrm",
         "name": "r/civicrm",
         "request": {
@@ -51,8 +51,23 @@
             }
         },
         "room": "socialmedia",
-        "pingInterval": "5",
+        "pingInterval": "60",
         "alertPrefix": "[reddit](https://civicrm.org/sites/civicrm.org/files/rss-reddit.png)",
         "alertSuffix": ""
-    }]
+    },
+    {
+        "id": "bolts-commits",
+        "name": "xurizaemon/bolts commits",
+        "request": {
+            "uri": "https://github.com/xurizaemon/bolts/commits/master.atom",
+            "headers": {
+                "User-Agent": "civicrm-bolts (https://github.com/xurizaemon/bolts)"
+            }
+        },
+        "room": "x-bot-test",
+        "pingInterval": "10",
+        "alertPrefix": ":turtle:",
+        "alertSuffix": ""
+    }
+  ]
 }
