@@ -1,0 +1,11 @@
+# Asking for help in chat.civicrm.org
+
+* Detailed questions are easier to answer than vague ones. People are more likely to reply if your question has enough information for them to know the answer.
+* Ask one question at a time!
+* Search the web to see if others have asked your question, especially https://docs.civicrm.org and https://civicrm.stackexchange.com
+* Share what you've tried ("I read the docs at https://docs.civicrm.org and it says to do X, Y, Z, but when I do Y I don't see the expected screen"). This will help those responding to answer appropriately.
+* Try to ask in the right channel - ~user-support for using CiviCRM, ~dev-newcomers for new developer support, ~town square if you're unsure.
+* Avoid posting the same question in multiple channels.
+* Be patient. We try to be a helpful and supportive community, and we all lead busy lives. If no-one answers, check back later, or try posting on https://civicrm.stackexchange.com
+
+(improve this message via PR or by creating a page to replace it on docs.civicrm.org)
