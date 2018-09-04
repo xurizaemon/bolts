@@ -10,7 +10,7 @@
         },
         "room": "town square",
         "pingInterval": "60",
-        "alertPrefix": "![SE](https://civicrm.org/sites/civicrm.org/files/rss-stackexchange.png)",
+        "alertPrefix": "![SE](https://civicrm.org/sites/civicrm.org/files/rss-stackexchange.png) ",
         "alertSuffix": ""
     },
     {
@@ -24,7 +24,7 @@
         },
         "room": "socialmedia",
         "pingInterval": "60",
-        "alertPrefix": "![Instagram](https://civicrm.org/sites/civicrm.org/files/rss-instagram.png)",
+        "alertPrefix": "![Instagram](https://civicrm.org/sites/civicrm.org/files/rss-instagram.png) ",
         "alertSuffix": ""
     },
     {
@@ -38,7 +38,7 @@
         },
         "room": "town square",
         "pingInterval": "60",
-        "alertPrefix": "[Blog](https://civicrm.org/sites/civicrm.org/files/rss-civicrm.png)",
+        "alertPrefix": "[Blog](https://civicrm.org/sites/civicrm.org/files/rss-civicrm.png) ",
         "alertSuffix": ""
     },
     {
@@ -52,7 +52,7 @@
         },
         "room": "socialmedia",
         "pingInterval": "60",
-        "alertPrefix": "[reddit](https://civicrm.org/sites/civicrm.org/files/rss-reddit.png)",
+        "alertPrefix": "[reddit](https://civicrm.org/sites/civicrm.org/files/rss-reddit.png) ",
         "alertSuffix": ""
     },
     {
@@ -66,7 +66,7 @@
         },
         "room": "x-bot-test",
         "pingInterval": "10",
-        "alertPrefix": ":turtle:",
+        "alertPrefix": ":turtle: ",
         "alertSuffix": ""
     }
   ]
