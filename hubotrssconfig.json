@@ -10,7 +10,7 @@
         },
         "room": "town square",
         "pingInterval": "60",
-        "alertPrefix": "![SE](https://civicrm.org/sites/civicrm.org/files/rss-stackexchange.png) ",
+        "alertPrefix": "",
         "alertSuffix": ""
     },
     {
