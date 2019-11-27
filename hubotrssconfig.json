@@ -14,6 +14,20 @@
         "alertSuffix": ""
     },
     {
+        "id": "civicrm-instagram",
+        "name": "CiviCRM Instagram",
+        "request": {
+            "uri": "https://queryfeed.net/instagram?q=%23civicrm",
+            "headers": {
+                "User-Agent": "civicrm-bolts (https://github.com/xurizaemon/bolts)"
+            }
+        },
+        "room": "socialmedia",
+        "pingInterval": "60",
+        "alertPrefix": "![Instagram](https://civicrm.org/sites/civicrm.org/files/rss-instagram.png) ",
+        "alertSuffix": ""
+    },
+    {
         "id": "civicrm-blog",
         "name": "CiviCRM Blog",
         "request": {
