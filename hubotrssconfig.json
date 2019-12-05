@@ -22,7 +22,7 @@
                 "User-Agent": "civicrm-bolts (https://github.com/xurizaemon/bolts)"
             }
         },
-        "room": "town square",
+        "room": "town-square",
         "pingInterval": "60",
         "alertPrefix": "[Blog](https://civicrm.org/sites/civicrm.org/files/rss-civicrm.png) ",
         "alertSuffix": ""
