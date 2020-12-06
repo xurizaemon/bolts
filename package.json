@@ -14,9 +14,8 @@
     "hubot-help": "^1.0.1",
     "hubot-heroku-keepalive": "^1.0.2",
     "hubot-isup": "^1.0.2",
-    "hubot-jira": "^1.0.2",
     "hubot-mail-listener": "^1.0.0",
-    "hubot-mail-notifier": "0.0.1",
+    "hubot-mail-notifier": "git+https://github.com/p0358/hubot-mail-notifier.git",
     "hubot-maps": "0.0.3",
     "hubot-matteruser": "^5.3.1",
     "hubot-mobilefriendly": "git+https://github.com/xurizaemon/hubot-mobilefriendly.git",
@@ -30,7 +29,6 @@
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.0",
     "hubot-ssllabs": "git+https://github.com/xurizaemon/hubot-ssllabs.git",
-    "hubot-trello": "^0.2.0",
     "hubot-twitter-mention": "git+https://github.com/xurizaemon/hubot-twitter-mention.git"
   },
   "engines": {
@@ -38,7 +36,7 @@
     "npm": "5.7.x"
   },
   "devDependencies": {
-    "canvas": "^2.6.0",
+    "canvas": "^2.6.1",
     "jsdom": "^15.2.1"
   }
 }
