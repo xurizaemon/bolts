@@ -5,6 +5,7 @@
   "author": "Chris Burgess <chris@fuzion.co.nz>",
   "description": "Boltar de Fuego, the Black Knight of CiviCRM.",
   "dependencies": {
+    "coffee": "^5.4.0",
     "hubot": "^3.3.2",
     "hubot-bolts": "git+https://github.com/xurizaemon/hubot-bolts.git",
     "hubot-diagnostics": "1.0.0",
@@ -32,8 +33,8 @@
     "hubot-twitter-mention": "git+https://github.com/xurizaemon/hubot-twitter-mention.git"
   },
   "engines": {
-    "node": "8.x",
-    "npm": "5.7.x"
+    "node": "10.x",
+    "npm": "6.14.x"
   },
   "devDependencies": {
     "canvas": "^2.6.1",
