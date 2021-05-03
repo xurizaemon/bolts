@@ -33,11 +33,11 @@
     "hubot-twitter-mention": "git+https://github.com/xurizaemon/hubot-twitter-mention.git"
   },
   "engines": {
-    "node": "8.x",
-    "npm": "5.7.x"
+    "node": "10.x",
+    "npm": "6.14.x"
   },
   "devDependencies": {
-    "canvas": "^2.6.1",
+    "canvas": "^2.7.0",
     "jsdom": "^15.2.1"
   }
 }
