@@ -12,7 +12,7 @@ fi
 set -e
 
 npm install --global coffeescript
-npm install --global babel
+npm install --global babel-cli
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 
